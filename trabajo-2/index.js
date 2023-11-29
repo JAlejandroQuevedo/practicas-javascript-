@@ -51,22 +51,23 @@ do{
 El programa debe utilizar la sentencia switch para manejar diferentes tipos de monedas. 
 Debes proporcionar tasas de cambio ficticias para algunas monedas.*/
 
+/*let tipoDeMoneda = ["Euro" , "Dolar" , "Peso Argentino"];
 let moneda = prompt("Ingresa la moneda que deseas convertir (Euro, Dolar, Peso Argentino");
 let cambio = prompt("Ingresa la cantidad que deseas convertir");
 
 switch(moneda){
-    case "Euro":
+    case tipoDeMoneda[0]:
         alert(cambio + " Euros es igual a " + (cambio * 18.85) + " Pesos Mexicanos")
         break;
-    case "Dolar":
+    case tipoDeMoneda[1]:
         alert(cambio + " Dolares es igual a " + (cambio * 17.12) + " Pesos Mexicanos")
         break;
-    case "Peso Argentino":
+    case tipoDeMoneda[2]:
         alert(cambio + " Pesos Argentinos" + (cambio * 0.048) + " Pesos Mexicanos")
         break;
     default:
         alert("No has ingresado un tipo de moneda valido")
-}
+}*/
 
 //Todo lo ingresado dentro del ciclo que es declarado como una variable debe hacerse con la palabra reservada "Var"
 // function bucleWhile(num){ 
